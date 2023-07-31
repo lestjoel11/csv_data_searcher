@@ -46,7 +46,7 @@ internal class CsvDataSearcher
         return true;
     }
 
-    public static void ParseCsvFile(string csvFilePath, int columnNumber, string searchKey)
+    private static void ParseCsvFile(string csvFilePath, int columnNumber, string searchKey)
     {
         List<string[]> searchResult = new();
         try
@@ -69,7 +69,7 @@ internal class CsvDataSearcher
         }
     }
 
-    public static void PrintResult(List<string[]> searchResult)
+    private static void PrintResult(List<string[]> searchResult)
     {
         if (searchResult.Count > 0)
             foreach (var array in searchResult)
