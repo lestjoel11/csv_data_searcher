@@ -5,7 +5,7 @@ Console application built on C# to search through csv data.
 
 
 ## usage
-- ./CsvSearch.exe <./csvFilePath> <columnNumber> <searchKey>
+~ ./CsvSearch.exe <./csvFilePath> <columnNumber> <searchKey>
 
 ## environment
-- .net 7.0
+~ .net 7.0
